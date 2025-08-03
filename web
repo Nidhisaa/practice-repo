@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Profile</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f4f9;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #4a90e2;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: 30px auto;
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      color: #333;
+    }
+
+    p {
+      line-height: 1.6;
+      color: #666;
+    }
+
+    .btn {
+      display: inline-block;
+      background-color: #4a90e2;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 25px;
+      text-decoration: none;
+      font-size: 16px;
+      transition: background 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #357ab7;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background-color: #eee;
+      color: #777;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to My Profile</h1>
+  </header>
+
+  <div class="container">
+    <h2>About Me</h2>
+    <p>Hello! I'm Nidhisaa, a student of Electronics and Communication Engineering. I love learning about technology, creating projects, and helping others through my work.</p>
+
+    <h2>Contact</h2>
+    <p>Email: nidhisaa@example.com</p>
+    <p>Location: Tamil Nadu, India</p>
+
+    <a href="https://www.linkedin.com" class="btn" target="_blank">Visit My LinkedIn</a>
+  </div>
+
+  <footer>
+    &copy; 2025 Nidhisaa Senthil. All rights reserved.
+  </footer>
+
+</body>
+</html>

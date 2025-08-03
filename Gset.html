@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Google Sheet</title>
+</head>  
+<body>
+    <h1 style="background-color: blueviolet;"> My Sheets</h1>
+    <h2 style="color: aliceblue;">Enter your Name</h2>
+<style>
+  body {
+    background-color: rgb(194, 146, 239);
+    font-style: italic;
+  
+    color: rgb(5, 3, 3);
+  
+  
+  }
+  h1 {
+    text-align: center;
+    color: rgb(22, 13, 13);
+  }
+    if (task.trim() === "") {
+      alert("Please enter a task.");
+      return;
+    }
+    let li = document.createElement("li");
+    li.textContent = task;
+    document.getElementById("todoList").appendChild(li);
+    document.getElementById("taskInput").value = "";
+  }
+
+</style>
+
+  <form>
+    Name: <type="text" name="username">
+  <br>
+
+     <h2 style="color: rgb(73, 147, 212);">Select Your Gender</h2>
+    <input type="radio" name="gender" value="male"> Male<br>
+    <input type="radio" name="gender" value="female"> Female<br>
+  <br>
+  // <link rel="stylesheet" href="stylee.css">
+    <input type="submit" value="Submit">
+
+  </form>
+</body> 
+</html>
+    
